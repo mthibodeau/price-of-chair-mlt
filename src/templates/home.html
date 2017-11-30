@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Price Checker</h1>
+    <p>Webapp to email you when the price drops on items you're interested in.</p>
+    <p>To use it, just paste in a link of item.<p>
+       <p><a class="btn btn-primary btn-lg" href="{{ url_for('users.register_user') }}" role="button">Sign Up</a>
+    </p>
+</div>
+
+{% endblock %}
